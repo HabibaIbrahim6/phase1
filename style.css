@@ -10,7 +10,12 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+<<<<<<< HEAD
+    background-color:rgb(53, 66, 129);
+    /* font-family: 'Fredoka One', sans-serif; */
+=======
     background: linear-gradient(135deg, #8e44ad, #3498db);
+>>>>>>> 0844970fa57c3f345228fc4e1d235af2337925aa
     font-family: 'Fredoka One', sans-serif;
     
 }
@@ -91,7 +96,7 @@ body{
     background: linear-gradient(135deg, #ff758c, #ff7eb3);
     transform: scale(1.05);
 }
-/*  */
+
 @media (max-width:400px) {
     .index{
         width: 90px;
