@@ -65,7 +65,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    color: black;
+    color: #ff758c;
     cursor: pointer;
     transition: 0.3s ease;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
