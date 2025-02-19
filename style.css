@@ -91,7 +91,7 @@ body{
     background: linear-gradient(135deg, #ff758c, #ff7eb3);
     transform: scale(1.05);
 }
-/*  */
+
 @media (max-width:400px) {
     .index{
         width: 90px;
