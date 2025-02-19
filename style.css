@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color:blueviolet;
+    background: linear-gradient(135deg, #8e44ad, #3498db);
     font-family: 'Fredoka One', sans-serif;
     
 }
@@ -19,14 +19,25 @@ body{
     flex-direction: column;
     gap: 10px;
     margin: auto; 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    
 }
 .header{
+    /* margin-bottom: 10px;
     text-align: center;
     background-color: white;
-    padding: 10px;
-    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); */
     margin-bottom: 10px;
+    color: white;
 }
+
 .index11{
     display: flex;
     flex-direction: row;
@@ -46,7 +57,7 @@ body{
     display: flex;
     width: 100px;
     height: 100px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -55,25 +66,36 @@ body{
     font-size: 50px;
     color: black;
     cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+.index:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);
 }
 .button1{
-    font-size: 7px;
-    margin: auto;
-    border: 0;
-    margin-top: 20px;
-    border-radius:3px;
-    cursor: pointer;
-    padding: 10px 30px;
-    text-align: center;
-    background-color: white;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
     font-weight: bold;
-    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.button1:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    transform: scale(1.05);
 }
 /*  */
 @media (max-width:400px) {
     .index{
         width: 90px;
         height: 90px;
-        font-size: 40px;
+        font-size: 35px;
     }
+
 }
