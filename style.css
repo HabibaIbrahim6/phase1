@@ -39,7 +39,6 @@ body{
     flex-direction: column;
     gap: 5px;
     margin: auto; 
-    /* background-color:rgb(221, 61, 218); */
 }
 .button1{
     font-size: 7px;
