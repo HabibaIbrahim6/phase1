@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color:blueviolet;
+    background-color:rgb(53, 66, 129);
     /* font-family: 'Fredoka One', sans-serif; */
     font-family: 'Fredoka One', sans-serif;
     
@@ -35,12 +35,12 @@ body{
 .index22{
     display: flex;
     flex-direction: row;
-    gap: 5px; 
+    gap: 10px; 
 }
 .index33{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
 }
 .index {
     display: flex;
@@ -69,7 +69,7 @@ body{
     font-weight: bold;
     font-size: 15px;
 }
-/*  */
+
 @media (max-width:400px) {
     .index{
         width: 90px;
