@@ -100,3 +100,12 @@ body{
     }
 
 }
+.win-animation {
+    animation: celebrate 0.1s infinite;
+}
+
+@keyframes celebrate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
