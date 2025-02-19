@@ -69,3 +69,11 @@ body{
     font-weight: bold;
     font-size: 15px;
 }
+/*  */
+@media (max-width:400px) {
+    .index{
+        width: 90px;
+        height: 90px;
+        font-size: 40px;
+    }
+}
