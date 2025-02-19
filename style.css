@@ -8,9 +8,9 @@ body{
 }
 .index {
     display: flex;
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -19,31 +19,22 @@ body{
     color: brown;
 }
 
-.index11{
+.index11 , .index22 ,.index33  {
     display: flex;
     flex-direction: row;
-    gap: 5px; 
+    gap: 10px; 
 }
-.index22{
-    display: flex;
-    flex-direction: row;
-    gap: 5px; 
-}
-.index33{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
+
 .board{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     margin: auto; 
     /* background-color:rgb(221, 61, 218); */
 }
 .button1{
-    font-size: 7px;
-    width: 40px;
+    font-size: 15px;
+    width: 80px;
     margin: auto;
     border: 0;
     margin-top: 3px;
