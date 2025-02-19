@@ -35,12 +35,12 @@ body{
 .index22{
     display: flex;
     flex-direction: row;
-    gap: 5px; 
+    gap: 10px; 
 }
 .index33{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
 }
 .index {
     display: flex;
